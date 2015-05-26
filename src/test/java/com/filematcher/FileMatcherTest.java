@@ -37,7 +37,7 @@ public class FileMatcherTest {
 		secondFileList.add(p2);
 
 		List<PersonName> expected = new ArrayList<PersonName>();
-		expected.add(new PersonName("ABC XYZ"));
+		expected.add(new PersonName("XYZ XYZ"));
 
 		List<PersonName> actual = fileMatcher.matchList(firstFileList,
 				secondFileList);
